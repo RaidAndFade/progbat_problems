@@ -4,6 +4,8 @@ Given a non-negative int n, compute recursively (no loops) the count of the occu
 count8(8) → 1
 count8(818) → 2
 count8(8818) → 4
+
+Credit for this problem goes to Nick Parlante from CodingBat.com
 #####
 int|int num
 #####

@@ -4,26 +4,28 @@ Given a string, compute recursively (no loops) a new string where all the lowerc
 changeXY("codex") → "codey"
 changeXY("xxhixx") → "yyhiyy"
 changeXY("xhixhix") → "yhiyhiy"
+
+Credit for this problem goes to Nick Parlante from CodingBat.com
 #####
 String|String str
 #####
 "codex"
-"codey"
+codey
 "xxhixx"
-"yyhiyy"
+yyhiyy
 "xhixhix"
-"yhiyhiy"
+yhiyhiy
 "hiy"
-"hiy"
+hiy
 "h"
-"h"
+h
 "x"
-"y"
+y
 ""
-""
+
 "xxx"
-"yyy"
+yyy
 "yyhxyi"
-"yyhyyi"
+yyhyyi
 "hihi"
-"hihi"
+hihi

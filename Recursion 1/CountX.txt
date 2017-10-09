@@ -4,6 +4,8 @@ Given a string, compute recursively (no loops) the number of lowercase 'x' chars
 countX("xxhixx") → 4
 countX("xhixhix") → 3
 countX("hi") → 0
+
+Credit for this problem goes to Nick Parlante from CodingBat.com
 #####
 int|String str
 #####

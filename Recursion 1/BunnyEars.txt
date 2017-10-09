@@ -4,6 +4,8 @@ We have a number of bunnies and each bunny has two big floppy ears. We want to c
 bunnyEars(0) → 0
 bunnyEars(1) → 2
 bunnyEars(2) → 4
+
+Credit for this problem goes to Nick Parlante from CodingBat.com
 #####
 int|int n
 #####

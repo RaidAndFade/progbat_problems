@@ -4,6 +4,8 @@ We have bunnies standing in a line, numbered 1, 2, ... The odd bunnies (1, 3, ..
 bunnyEars2(0) → 0
 bunnyEars2(1) → 2
 bunnyEars2(2) → 5
+
+Credit for this problem goes to Nick Parlante from CodingBat.com
 #####
 int|int n
 #####

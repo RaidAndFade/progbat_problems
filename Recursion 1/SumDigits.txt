@@ -4,6 +4,8 @@ Given a non-negative int n, return the sum of its digits recursively (no loops).
 sumDigits(126) → 9
 sumDigits(49) → 13
 sumDigits(12) → 3
+
+Credit for this problem goes to Nick Parlante from CodingBat.com
 #####
 int|int num
 #####

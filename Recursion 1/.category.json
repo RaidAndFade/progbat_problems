@@ -23,9 +23,10 @@
                     "default":
                         "   System.out.println(get{namec}({ta}));\n"
                 },
-                "validateCode":[
-                    "return $line==$tr;"
-                ],
+                "validateCode":{
+                    "default":
+                        ["return $line==$tr;"]
+                },
                 "testCode":[
                     "return \"<tr><td>$tr</td><td>$line</td><td class='\".($valid?'g':'r').\"'>\".($valid?'Yes':'No').\"</td></tr>\";"
                 ],

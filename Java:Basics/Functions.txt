@@ -6,6 +6,8 @@ In Java, Functions take in arguments in the brackets, and return things using th
 
 The function below shows how to return "Hello World!",
 Change it so that it returns "Nice weather outside!"
+
+Credit for this problem goes to Nick Parlante from CodingBat.com
 #####
 String|
 #####

@@ -4,6 +4,8 @@ The fibonacci sequence is a famous bit of mathematics, and it happens to have a 
 fibonacci(0) → 0
 fibonacci(1) → 1
 fibonacci(2) → 1
+
+Credit for this problem goes to Nick Parlante from CodingBat.com
 #####
 int|int n
 #####

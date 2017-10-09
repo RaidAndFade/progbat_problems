@@ -4,6 +4,8 @@ Given a non-negative int n, return the count of the occurrences of 7 as a digit,
 count7(717) → 2
 count7(7) → 1
 count7(123) → 0
+
+Credit for this problem goes to Nick Parlante from CodingBat.com
 #####
 int|int num
 #####

@@ -4,6 +4,8 @@ Given a string, compute recursively (no loops) the number of times lowercase "hi
 countHi("xxhixx") → 1
 countHi("xhixhix") → 2
 countHi("hi") → 1
+
+Credit for this problem goes to Nick Parlante from CodingBat.com
 #####
 int|String str
 #####
