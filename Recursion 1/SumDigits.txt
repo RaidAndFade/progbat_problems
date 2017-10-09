@@ -1,0 +1,31 @@
+Given a non-negative int n, return the sum of its digits recursively (no loops). Note that mod (%) by 10 yields the rightmost digit (126 % 10 is 6), while divide (/) by 10 removes the rightmost digit (126 / 10 is 12).
+
+
+sumDigits(126) → 9
+sumDigits(49) → 13
+sumDigits(12) → 3
+#####
+int|int num
+#####
+126
+9
+49
+13
+12
+3
+10
+1
+1
+1
+0
+0
+730
+10
+1111
+4
+11111
+5
+10110
+3
+235
+10

@@ -1,0 +1,14 @@
+Welcome to the first Basics of Programming. 
+This problem is specifically for Java,
+Java programs require a `public static void main` function, this is required for the computer to know what to do first.
+
+In Java we have many ways to output to the screen, but the most used and most obvious way is to use
+
+System.out.print or System.out.println
+
+Try to print "Hello World!"
+#####
+| 
+#####
+
+Hello World!

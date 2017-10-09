@@ -1,0 +1,85 @@
+{
+    "defaults":{
+        "langs":{
+            "java":{
+                "restrictions":["System","import"],
+                "require":[""],
+                "templatePrefix":[
+                    "public static {retType} get{namec}({args}){"
+                ],
+                "templateSuffix":[
+                    "}"
+                ],
+                "execPrefix":[
+                    "public class main{",
+                    "   public static void main(String... args){",
+                    "       {test}",
+                    "   }"
+                ],
+                "execSuffix":[
+                    "}"
+                ],
+                "testEvalCode":{ 
+                    "default":
+                        "   System.out.println(get{namec}({ta}));\n"
+                },
+                "validateCode":[
+                    "return $line==$tr;"
+                ],
+                "testCode":[
+                    "return \"<tr><td>$tr</td><td>$line</td><td class='\".($valid?'g':'r').\"'>\".($valid?'Yes':'No').\"</td></tr>\";"
+                ],
+                "returnFormat":[
+                    "You completed {valid}/{total} of the Test Cases.",
+                    "<table border=\"1px\"><tr><th>Expected Result</th><th>Your Result</th><th>Correct?</th></tr>",
+                    "{res}",
+                    "</table>"
+                ],
+                "defaultCode":["\n\t\n\t\n"]
+            }
+        }
+    },
+    "problems":{
+        "Hello World":{
+            "langs":{
+                "java":{
+                    "COMMENT":"THIS IS NOT THE INTENDED PURPOSE OF THIS WEBSITE, THIS PROBLEM IS JUST PROOF THAT SUCH A THING IS POSSIBLE",
+                    "restrictions":[],
+                    "require":["System.out.print"],
+                    "validateCode":[
+                        "return strlen($line)>0;"
+                    ],
+                    "testCode":[
+                        "if(!$valid){",
+                        "   return \"You're not saying anything!\";",
+                        "};",
+                        "return 'Good job! Printed \\''.$line.'\\'';"
+                    ],
+                    "templatePrefix":[
+                        "public class main{",
+                        "   public static void main(String[] args){"
+                    ],
+                    "templateSuffix":[
+                        "   }",
+                        "}"
+                    ],
+                    "execPrefix":[],
+                    "execSuffix":[],
+                    "testEvalCode":{ 
+                        "default":""
+                    },
+                    "returnFormat":[
+                        "{res}"
+                    ]
+                }
+            }
+        },
+        "Functions":{
+            "langs":{
+                "java":{
+                    "defaultCode":["\n\treturn \"Hello World!\";\n"]
+                }
+            }
+        }
+    }
+}

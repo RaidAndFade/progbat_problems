@@ -1,0 +1,31 @@
+Given a string, compute recursively (no loops) the number of times lowercase "hi" appears in the string.
+
+
+countHi("xxhixx") → 1
+countHi("xhixhix") → 2
+countHi("hi") → 1
+#####
+int|String str
+#####
+"xxhixx"
+1
+"xhixhix"
+2
+"hi"
+1
+"hihih"
+2
+"h"
+0
+""
+0
+"ihihihihih"
+4
+"ihihihihihi"
+5
+"hiAAhi12hi"
+3
+"xhixhxihihhhih"
+3
+"ship"
+1

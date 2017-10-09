@@ -1,0 +1,98 @@
+{
+    "defaults":{
+        "langs":{
+            "java":{
+                "restrictions":["System","import","for("],
+                "require":["get{namec}("],
+                "templatePrefix":[
+                    "public static {retType} get{namec}({args}){"
+                ],
+                "templateSuffix":[
+                    "}"
+                ],
+                "execPrefix":[
+                    "public class main{",
+                    "   public static void main(String... args){",
+                    "       {test}",
+                    "   }"
+                ],
+                "execSuffix":[
+                    "}"
+                ],
+                "testEvalCode":{ 
+                    "default":
+                        "   System.out.println(get{namec}({ta}));\n"
+                },
+                "validateCode":[
+                    "return $line==$tr;"
+                ],
+                "testCode":[
+                    "return \"<tr><td>$tr</td><td>$line</td><td class='\".($valid?'g':'r').\"'>\".($valid?'Yes':'No').\"</td></tr>\";"
+                ],
+                "returnFormat":[
+                    "You completed {valid}/{total} of the Test Cases.",
+                    "<table border=\"1px\"><tr><th>Expected Result</th><th>Your Result</th><th>Correct?</th></tr>",
+                    "{res}",
+                    "</table>"
+                ],
+                "defaultCode":["\n\t\n\t\n"]
+            }
+        }
+    },
+    "problems":{
+        "Factorial":{},
+        "BunnyEars":{
+            "langs":{
+                "java":{
+                    "restrictions":["System","import","for(","*","<<"]
+                }
+            }
+        },
+        "Fibonacci":{},
+        "BunnyEars2":{
+            "langs":{
+                "java":{
+                    "restrictions":["System","import","for(","*","<<"]
+                }
+            }
+        },
+        "Triangle":{},
+        "SumDigits":{},
+        "Count 7":{
+            "langs":{
+                "java":{
+                    "restrictions":["System","import","for(","indexOf("]
+                }
+            }
+        },
+        "Count 8":{
+            "langs":{
+                "java":{
+                    "restrictions":["System","import","for(","indexOf("]
+                }
+            }
+        },
+        "PowerN":{},
+        "CountX":{
+            "langs":{
+                "java":{
+                    "restrictions":["System","import","for(","indexOf("]
+                }
+            }
+        },
+        "CountHi":{
+            "langs":{
+                "java":{
+                    "restrictions":["System","import","for(","indexOf("]
+                }
+            }
+        },
+        "ChangeXY":{
+            "langs":{
+                "java":{
+                    "restrictions":["System","import","for(",".indexOf(",".replace("]
+                }
+            }
+        }
+    }
+}
